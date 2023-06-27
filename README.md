@@ -12,7 +12,9 @@
 
 ## Usage
 
-You will need git and tectonic installed, from your terminal:
+### Native
+
+You will need git and [tectonic](https://github.com/tectonic-typesetting/tectonic/releases/latest) installed, from your terminal:
 
 ```sh
 git clone https://github.com/cassiofb-dev/cassio-fernando-cv
@@ -20,6 +22,14 @@ git clone https://github.com/cassiofb-dev/cassio-fernando-cv
 cd cassio-fernando-cv
 
 bash compile.sh
+```
+
+### Docker
+
+You can also run with Docker by running:
+
+```sh
+docker compose up -d
 ```
 
 ## Credits
@@ -32,7 +42,6 @@ MIT
 
 ---
 
-> [Website](https://cassio-fernando.netlify.app/) &nbsp;&middot;&nbsp;
+> [Website](https://cassio-souza.pages.dev/) &nbsp;&middot;&nbsp;
 > GitHub [@cassiofb-dev](https://github.com/cassiofb-dev) &nbsp;&middot;&nbsp;
 > Twitter [@cassiofb_dev](https://twitter.com/cassiofb_dev)
-> 
